@@ -1,9 +1,9 @@
 {
     "tasks": [
         {
-            "type": "cppbuild",
-            "label": "C/C++: gcc-13 build active file",
-            "command": "/usr/bin/gcc-13",
+            "type": "shell",
+            "label": "build and run C program",
+            "command": "gcc",
             "args": [
                 "-fdiagnostics-color=always",
                 "-Wall",
