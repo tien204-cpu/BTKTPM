@@ -5,7 +5,15 @@
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
-      "args": [],
+      "args": [    
+        "-Wall",
+        "-Wextra",
+        "-g3",
+        "${file}",
+        "-o",
+        "${fileDirname}/output/${fileBasenameNoExtension}",
+        "-lm"
+      ],
       "stopAtEntry": false,
       "externalConsole": false,
       "cwd": "/workspaces/BTKTPM/Lab1/Bai2a",
