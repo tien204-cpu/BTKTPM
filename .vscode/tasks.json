@@ -5,14 +5,13 @@
             "label": "build and run C program",
             "command": "gcc",
             "args": [
-                "-fdiagnostics-color=always",
                 "-Wall",
                 "-Wextra",
                 "-g3",
                 "${file}",
                 "-o",
                 "${fileDirname}/output/${fileBasenameNoExtension}",
-                "-lm"
+                 "-lm",
             ],
             "options": {
                 "cwd": "${fileDirname}"
